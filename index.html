@@ -1,1 +1,32 @@
-Hello world
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        <title>Buggy Conerencing Client</title>
+        <link rel="stylesheet" media="screen" href ="static/css/base.css">
+        <link rel="icon" href="static/images/video-chat-line.png">
+    </head>
+    <body>
+        <div class="body-container">
+            <div class="header-container">
+                <h1 class="header">A Totaly Real Conferencing Client</h1>
+                <img class="header-icon" src="static/images/video-chat-line.png">
+            </div>
+            <form>
+                <label for="callerInput">Enter a command:</label>
+                <input type="text" name="callerInput" class="input">
+                <div class="callerOutput"></div>
+                <button class="c-button--submit">Submit</button>
+            </form>
+            <div class="images">
+                <div class="callImagesA"></div>
+                <div class="callImagesB"></div>
+            </div>
+        </div>
+        <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous">
+        </script>
+        <script type="text/javascript" src="static/js/base.js"></script>
+    </body>
+</html>

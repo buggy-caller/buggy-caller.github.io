@@ -1,0 +1,83 @@
+.body-container {
+	padding: 1.5rem 3rem;
+}
+
+.header-container {
+	display: flex;
+	align-items: center;
+}
+
+.header {
+	text-align: center;
+	font-size: 36px;
+	width: 94%;
+}
+
+.images {
+	width: 50%;
+    margin: 48px auto;
+}
+
+.images .callImagesA {
+	padding-right: 48px;
+	float: left;	
+}
+
+.images img {
+	border: 1px solid #DCDCDC;
+	width: 400px;
+}
+
+.callerOutput {
+    white-space: pre-wrap;
+}
+.success {
+	color: #3BC715;
+}
+
+.error {
+	color: red;
+}
+
+.header-icon {
+	width: 6%;
+}
+
+form {
+	width: 50%;
+	margin: 48px auto;
+}
+
+label {
+	display: block;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+input {
+	border-radius: 3px;
+	height: 24px;
+	width: 50%;
+	display: block;
+	margin: 24px 0;
+	padding: 12px;
+	font-size: 16px;
+	border: 1px solid #dcdcdc;
+}
+
+.c-button--submit {
+	margin-top: 1.5rem;
+	display: block;
+    background: #3BC715;
+    border: none;
+    border-radius: 6px;
+    width: 7.5rem;
+    padding: 18px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.c-button--submit:hover {
+	background: #35af14;
+}
